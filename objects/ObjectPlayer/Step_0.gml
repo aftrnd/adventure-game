@@ -7,4 +7,3 @@ Move_Down = keyboard_check(ord("S"));
 Move_Jump = keyboard_check(ord("W"));
 
 script_execute(PlayerState)
-

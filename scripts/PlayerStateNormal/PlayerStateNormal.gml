@@ -1,4 +1,4 @@
-function PlayerStateFree(){
+function PlayerStateNormal(){
 	
 var MovePlayerHorizontal = Move_Right - Move_Left;
 HorizontalSpeed = MovePlayerHorizontal * WalkSpeed;
@@ -76,7 +76,7 @@ if (HorizontalSpeed != 0) image_xscale = sign(HorizontalSpeed);
 //LADDERS
 if (place_meeting(x, y, ObjectLadderUtility))
     {
-		PlayerStateLadder()
+		PlayerStateLadder();
 	}
-
+	
 }

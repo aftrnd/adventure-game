@@ -31,7 +31,6 @@ function PlayerStateLadder(){
 		} else {
 			VerticalSpeed = 0;
 		}
-		show_debug_message("ON DA LADDER!");
     }
 	else 
     {
@@ -40,6 +39,5 @@ function PlayerStateLadder(){
 		ladder = false;
 		JumpDisabled = false;
 		GravityEnabled = true;
-		show_debug_message("NOT ON DA LADDER!");
     }
 }

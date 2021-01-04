@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"SpriteChest","path":"sprites/SpriteChest/SpriteChest.yy",},"order":11,},
     {"id":{"name":"SpritePlayerRunning","path":"sprites/SpritePlayerRunning/SpritePlayerRunning.yy",},"order":2,},
     {"id":{"name":"Determination","path":"fonts/Determination/Determination.yy",},"order":0,},
     {"id":{"name":"SpritePlayer","path":"sprites/SpritePlayer/SpritePlayer.yy",},"order":0,},
@@ -14,9 +15,10 @@
     {"id":{"name":"PlayerStateLadder","path":"scripts/PlayerStateLadder/PlayerStateLadder.yy",},"order":2,},
     {"id":{"name":"ObjectCamera","path":"objects/ObjectCamera/ObjectCamera.yy",},"order":2,},
     {"id":{"name":"ObjectPlayer","path":"objects/ObjectPlayer/ObjectPlayer.yy",},"order":0,},
+    {"id":{"name":"ObjectChest","path":"objects/ObjectChest/ObjectChest.yy",},"order":8,},
     {"id":{"name":"ObjectKernel","path":"objects/ObjectKernel/ObjectKernel.yy",},"order":3,},
     {"id":{"name":"SpriteGoldenCloud","path":"sprites/SpriteGoldenCloud/SpriteGoldenCloud.yy",},"order":6,},
-    {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},"order":1,},
+    {"id":{"name":"PlayerStateNormal","path":"scripts/PlayerStateNormal/PlayerStateNormal.yy",},"order":1,},
     {"id":{"name":"StartRoomVanity","path":"sprites/StartRoomVanity/StartRoomVanity.yy",},"order":4,},
     {"id":{"name":"SpriteLadderUtility","path":"sprites/SpriteLadderUtility/SpriteLadderUtility.yy",},"order":8,},
     {"id":{"name":"ObjectSpeechBubbleAnimated","path":"objects/ObjectSpeechBubbleAnimated/ObjectSpeechBubbleAnimated.yy",},"order":6,},

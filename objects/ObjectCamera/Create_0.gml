@@ -8,8 +8,8 @@ CameraSmoothingScale = 0.05;
 CurrentMonitorResolutionHeight = display_get_height()
 CurrentMonitorResolutionWidth = display_get_width()
 
-view_width = CurrentMonitorResolutionWidth / 6;
-view_height = CurrentMonitorResolutionHeight / 6;
+view_width = CurrentMonitorResolutionWidth / 4;
+view_height = CurrentMonitorResolutionHeight / 4;
 
 GameFullscreen = false
 

@@ -1,5 +1,5 @@
 /// @description Player Variables (Speed, Gravity, etc...)
-PlayerState = PlayerStateFree;
+PlayerState = PlayerStateNormal;
 
 //General Movement
 HorizontalSpeed = 0;
