@@ -78,5 +78,16 @@ if (place_meeting(x, y, ObjectLadderUtility))
     {
 		PlayerStateLadder();
 	}
+
+//CHESTS
+if (place_meeting(x, y, ObjectChest)) or keyboard_check_pressed(ord("Z"))
+    {
+		StateChestActive();
+	}
 	
+else if (!place_meeting(x, y, ObjectChest))
+    {
+		StateChestDormant();
+	}
+
 }
