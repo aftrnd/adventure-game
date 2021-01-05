@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpriteChest",
-    "path": "sprites/SpriteChest/SpriteChest.yy",
+    "name": "SpriteChestOpen",
+    "path": "sprites/SpriteChestOpen/SpriteChestOpen.yy",
   },
   "solid": false,
   "visible": true,

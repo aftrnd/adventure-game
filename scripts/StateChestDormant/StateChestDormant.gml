@@ -6,8 +6,9 @@ function StateChestDormant(){
 			TouchingChest = false;
 			IsChestOpen = false;
 			
-			ObjectChest.image_speed = 0;
-			ObjectChest.image_index = 0;
+			ObjectChest.sprite_index = SpriteChest;
+			
+			
 			
 			
 		}

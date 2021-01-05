@@ -32,7 +32,7 @@ if (place_meeting(x + HorizontalSpeed, y, ObjectWall))
 // Change X-Axis Coordinates
 x = x + HorizontalSpeed
 
-// Vertical COllision
+// Vertical Collision
 if (place_meeting(x, y + VerticalSpeed, ObjectWall))
 {
 	// If player collides, set horizontal speed to 0
@@ -83,6 +83,7 @@ if (place_meeting(x, y, ObjectLadderUtility))
 if (place_meeting(x, y, ObjectChest))
     {
 		StateChestActive();
+
 	}
 	
 else if (!place_meeting(x, y, ObjectChest))
