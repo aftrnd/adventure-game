@@ -80,7 +80,7 @@ if (place_meeting(x, y, ObjectLadderUtility))
 	}
 
 //CHESTS
-if (place_meeting(x, y, ObjectChest)) or keyboard_check_pressed(ord("Z"))
+if (place_meeting(x, y, ObjectChest))
     {
 		StateChestActive();
 	}

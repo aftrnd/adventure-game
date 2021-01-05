@@ -1,9 +1,9 @@
 function StateChestActive(){
-	
 	//Gets the current chest's ID so we're not affecting every chest in a room
 	var CurrentChest
 	
 	IsChestOpen = false;
+	TouchingChest = false;
 	CurrentChest =  instance_position(ObjectPlayer.x, ObjectPlayer.y, ObjectChest)
 	
 	//IF player is directly over a chest, state becomes OPEN.
@@ -13,8 +13,8 @@ function StateChestActive(){
 			TouchingChest = true;
 			IsChestOpen = true;
 			
-			
 			CurrentChest.image_speed = 1;
+			CurrentChest.image_index = 0;
 			show_debug_message("Chest is open!");
 			
 		}
