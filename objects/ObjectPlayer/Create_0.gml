@@ -14,3 +14,7 @@ LadderSpeed = 1
 ladder = false
 JumpDisabled = false
 GravityEnabled = true
+UsingChest = false
+
+//Inventory
+playerInventory = ds_list_create();

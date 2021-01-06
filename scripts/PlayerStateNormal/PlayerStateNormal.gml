@@ -12,7 +12,7 @@ if (GravityEnabled = true)
 }
 
 // Jumping
-if (place_meeting(x, y + 1, ObjectWall)) and (Move_Jump) and JumpDisabled = false
+if (place_meeting(x, y + 1, ObjectWall)) and (Move_Jump) and JumpDisabled = false and UsingChest = false
 {
 	VerticalSpeed = -2.75;
 }
@@ -84,11 +84,6 @@ if (place_meeting(x, y, ObjectChest))
     {
 		StateChestActive();
 
-	}
-	
-else if (!place_meeting(x, y, ObjectChest))
-    {
-		StateChestDormant();
 	}
 
 }
