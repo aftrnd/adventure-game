@@ -14,5 +14,5 @@ draw_roundrect_ext(x - HalfWidth - Border, y - Height - (Border * 2), x + HalfWi
 draw_set_alpha(1);
 
 //DRAW THE TEXT
-ScriptDrawText(c_white, Determination, fa_center, fa_top);
+ScriptDrawText(c_white, FontSignText, fa_center, fa_top);
 draw_text(x, y - Height - Border, CurrentText);

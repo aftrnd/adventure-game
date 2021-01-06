@@ -4,7 +4,7 @@
 Letters += TextSpeed;
 CurrentText = string_copy(Text, 1, floor(Letters));
 
-draw_set_font(Determination);
+draw_set_font(FontSignText);
 if (Height == 0) Height = string_height(Text);
 Width = string_width(CurrentText);
 

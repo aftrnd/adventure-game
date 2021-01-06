@@ -83,7 +83,6 @@ if (place_meeting(x, y, ObjectLadderUtility))
 if (place_meeting(x, y, ObjectChest))
     {
 		StateChestActive();
-
 	}
 
 }
