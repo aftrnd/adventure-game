@@ -19,6 +19,7 @@ function StateChestActive(){
 			CurrentChest.image_index = 0;
 			CurrentChest.sprite_index = SpriteChestOpen;
 			show_debug_message("Chest is open!");
+			ObjectPlayer.DisplayChestUI = true;
 			
 		}
 
@@ -30,6 +31,7 @@ function StateChestActive(){
 			CurrentChest.image_index = 0;
 			CurrentChest.sprite_index = SpriteChestClose;
 			show_debug_message("Chest is closed!");
+			ObjectPlayer.DisplayChestUI = false;
 		}
 
 }
