@@ -8,6 +8,7 @@ if (point_in_circle(ObjectPlayer.x, ObjectPlayer.y, x, y, 20)) && (!instance_exi
 		Text = other.Text;
 		Length = string_length(Text);
 		
+		//Floaty boi
 		instance_destroy(ObjectSpeechBubbleAnimated)
 	
 	}
