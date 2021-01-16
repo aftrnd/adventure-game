@@ -2,7 +2,7 @@ function StateChestActive(){
 	//Gets the current chest's ID so we're not affecting every chest in a room
 	var CurrentChest
 	
-	
+	//Assign current chest flags
 	IsChestOpen = false;
 	TouchingChest = false;
 	CurrentChest =  instance_position(ObjectPlayer.x, ObjectPlayer.y, ObjectChest)
@@ -15,6 +15,7 @@ function StateChestActive(){
 			IsChestOpen = true;
 			UsingChest = true;
 			
+			//Chest sprite update OPEN
 			CurrentChest.image_speed = 1;
 			CurrentChest.image_index = 0;
 			CurrentChest.sprite_index = SpriteChestOpen;
@@ -23,10 +24,13 @@ function StateChestActive(){
 			
 		}
 
+	//If player is over a chest and we're CLOSING the chest.
 	if (keyboard_check_pressed(ord("X")))
 		{
 			UsingChest = false;
 			WalkSpeed = 1;
+			
+			//Chest sprite update CLOSE
 			CurrentChest.image_speed = 1;
 			CurrentChest.image_index = 0;
 			CurrentChest.sprite_index = SpriteChestClose;

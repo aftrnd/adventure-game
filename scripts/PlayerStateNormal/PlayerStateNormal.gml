@@ -8,7 +8,7 @@ if (GravityEnabled = true)
 {
 	VerticalSpeed = VerticalSpeed + GravityAmount;
 } else {
-	GravityEnabled = false
+	GravityEnabled = false;
 }
 
 // Jumping

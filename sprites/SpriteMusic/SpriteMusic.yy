@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"18d1ed29-d7e2-4e09-8ee9-08561562f34d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "adventure-game",
-    "path": "adventure-game.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "SpriteMusic",

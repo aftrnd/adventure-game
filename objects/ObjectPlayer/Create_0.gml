@@ -1,4 +1,6 @@
 /// @description Player Variables (Speed, Gravity, etc...)
+depth = -102;
+
 PlayerState = PlayerStateNormal;
 
 CurrentPlayerHuman = true;

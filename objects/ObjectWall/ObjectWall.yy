@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_uls_collider",
+    "path": "objects/obj_uls_collider/obj_uls_collider.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
